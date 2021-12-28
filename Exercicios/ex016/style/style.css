@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, rgba(255,243,243,1) , rgba(255,163, 88,1) )
+}
+
+main{
+    background-color: rgba(255,248,243,1);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(161, 102, 54, 0.651) ;
+}
+
+h1{
+    color: rgba(255,116,  0,1) ;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(145, 65, 0, 0.671);
+}
+
+h2{
+    color: rgba(248, 24,151,1) ;
+}
+
+p{
+    text-align: justify;
+    
+}
+
+.rgba-primary-0 { color: rgba(255, 88, 88,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(255,243,243,1) }
+.rgba-primary-2 { color: rgba(255,154,154,1) }
+.rgba-primary-3 { color: rgba(255, 25, 25,1) }
+.rgba-primary-4 { color: rgba(255,  0,  0,1) }
+
+.rgba-secondary-1-0 { color: rgba(255,163, 88,1) }	/* Main Secondary color (1) */
+.rgba-secondary-1-1 { color: rgba(255,248,243,1) }
+.rgba-secondary-1-2 { color: rgba(255,200,154,1) }
+.rgba-secondary-1-3 { color: rgba(255,129, 25,1) }
+.rgba-secondary-1-4 { color: rgba(255,116,  0,1) }
+
+.rgba-secondary-2-0 { color: rgba(248, 85,177,1) }	/* Main Secondary color (2) */
+.rgba-secondary-2-1 { color: rgba(255,243,249,1) }
+.rgba-secondary-2-2 { color: rgba(250,151,207,1) }
+.rgba-secondary-2-3 { color: rgba(248, 24,151,1) }
+.rgba-secondary-2-4 { color: rgba(246,  0,139,1) }
