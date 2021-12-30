@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e Pseudo-elementos</title>
+
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        div {
+            margin: 1px;
+            background: rgb(141, 141, 236);
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        div>p {
+            display: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: blueviolet;
+            font-size: 1.2em;
+        }
+
+        /*Pseudo-classes*/
+        a:hover {
+            text-decoration: underline;
+        }
+
+        div:hover {
+            background-color: yellow;
+        }
+
+        div#oculta:hover>p {
+            display: inline-block;
+        }
+
+        /*Pseudo-elementos*/
+
+        a::after {
+            content: ' - LINK';
+            text-decoration: none;
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pseudo-classe</h1>
+    <div>bloco 01</div>
+    <div>bloco 02</div>
+    <div>bloco 03</div>
+    <div id="oculta">
+        passe o mouse aqui
+        <p>ACHOU!!!</p>
+    </div>
+
+    <h1>Pseudo-elemento</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="external">Acesse o YOUTUBE</a></li>
+        <li><a href="https://www.google.com.br/" target="_blank rel=" external">Acesse o GOOGLE</a></li>
+        <li><a href="https://pt-br.facebook.com/" target="_blank rel=" external">Acesse o FACEBOOK</a></li>
+    </ul>
+</body>
+
+</html>
