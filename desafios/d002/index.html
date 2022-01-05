@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,13 +8,15 @@
     <title>Desafio 002</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    
 </head>
 
 <body>
 
     <header>
-        <h1>Curiosidades de Tecnologia</h1>
-        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+        <h1 class="header_">Curiosidades de Tecnologia</h1>
+        <p class="header_">Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+        
     </header>
 
     <nav>
@@ -48,7 +50,7 @@
             </p>
 
             <picture>
-                <source media="(max-width: 750px)" srcset="imagens/dan-droids-pq.png" type="image/png">
+                <source media="(max-width: 670px)" srcset="imagens/dan-droids-pq.png" type="image/png">
                 <img src="imagens/dan-droids.png" alt="Primeira versão Android">
             </picture>
 
@@ -66,7 +68,7 @@
             </p>
 
             <picture>
-                <source media="(max-width: 750px)" srcset="imagens/irina-blok-pq.jpg" type="image/png">
+                <source media="(max-width: 670px)" srcset="imagens/irina-blok-pq.jpg" type="image/png">
                 <img src="imagens/irina-blok.jpg" alt="Criadora Logo Android">
             </picture>
 
@@ -77,7 +79,7 @@
             </p>
 
 
-            <img src="imagens/bugdroid.png" alt="Logo Bugdroid">
+            <img src="imagens/bugdroid.png" alt="Logo Bugdroid" class="img-pq">
 
 
             <p>
@@ -87,10 +89,12 @@
                 identificação foi imediata: simples, limpo, objetivo.
             </p>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
 
             <aside>
                 <h3>Quer aprender mais?</h3>
@@ -123,8 +127,10 @@
                     uma trouxe para o sistema Android.
                 </p>
             </aside>
-            Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e
-            seu simpático mascote.
+                <p>
+                    Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e
+                    seu simpático mascote.
+                </p>
         </article>
     </main>
 
